@@ -23,6 +23,8 @@ Watch it on Youtube:
 - Development: ESLint, Babel, Git, Github,
 - Deployment: Heroku
 
+https://www.youtube.com/watch?v=CDtPMR5y0QU
+
 ## Run Locally
 
 ### 1. Clone repo
