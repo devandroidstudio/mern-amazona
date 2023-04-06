@@ -36,6 +36,7 @@ import UserEditScreen from './screens/UserEditScreen';
 import MapScreen from './screens/MapScreen';
 import ForgetPasswordScreen from './screens/ForgetPasswordScreen';
 import ResetPasswordScreen from './screens/ResetPasswordScreen';
+import ProductAdditionScreen from './screens/ProductAdditionScreen';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -252,6 +253,14 @@ function App() {
                 element={
                   <AdminRoute>
                     <ProductListScreen />
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path="/admin/products/create"
+                element={
+                  <AdminRoute>
+                    <ProductAdditionScreen />
                   </AdminRoute>
                 }
               ></Route>

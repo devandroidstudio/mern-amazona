@@ -143,9 +143,10 @@ export default function ProductListScreen() {
         </Col>
         <Col className="col text-end">
           <div>
-            <Button type="button" onClick={createHandler}>
+          <Link to="/admin/products/create" className="btn btn-primary">Create New Product</Link>
+          {/* <Button type="button" onClick={createHandler}>
               Create Product
-            </Button>
+            </Button> */}
           </div>
         </Col>
       </Row>
